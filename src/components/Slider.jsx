@@ -45,7 +45,7 @@ const Slider = () => {
 
     }
   return (
-    <div className='max-w-[1400px] h-[580px] w-full m-auto py-16  px-4 relative group '>
+    <div className='max-w-[1400px] h-[580px] w-full m-auto py-16 mt-24 md:mt-0  px-4 relative group '>
         <h2 className='text-center lg:text-6xl font-bold text-4xl text-gray-800 mb-5 font-raleway lg:mb-10'>Gallery</h2>
         <div className='w-full h-full rounded-2xl bg-center bg-cover duration-500' style={{backgroundImage:`url(${slides[currentIndex].url})`}}></div>
         {/*Left Arrow */}
