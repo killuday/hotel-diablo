@@ -5,6 +5,11 @@ module.exports = {
   ],
   theme: {
     extend: {},
+     fontFamily: {
+      'jakarta': ['Plus Jakarta Sans', 'sans-serif'],
+      'raleway': ['Raleway', 'sans-serif'],
+      'urbanist': ['Urbanist', 'sans-serif'],
+    }
   },
   plugins: [],
 }

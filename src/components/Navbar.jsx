@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <>
       <div className="absolute w-full flex justify-between p-4 items-center">
-        <h1 className="text-white font-bold text-2xl z-20">Experiences</h1>
+        <h1 className="text-white font-bold font-jakarta text-2xl z-20">Hotel Diablo</h1>
         <HiMenuAlt3
           onClick={handleNav}
           size={25}
@@ -28,11 +28,10 @@ const Navbar = () => {
           }
         >
           <ul className="flex flex-col fixed w-full h-full items-center justify-center  ">
-            <li className="font-bold text-3xl p-8">Home</li>
-            <li className="font-bold text-3xl p-8">Destinations</li>
-            <li className="font-bold text-3xl p-8">Reservations</li>
-            <li className="font-bold text-3xl p-8">Home</li>
-            <li className="font-bold text-3xl p-8">Home</li>
+            <li className="font-bold font-urbanist text-3xl p-8">Home</li>
+            <li className="font-bold font-urbanist text-3xl p-8">Destinations</li>
+            <li className="font-bold font-urbanist text-3xl p-8">Reservations</li>
+            <li className="font-bold font-urbanist text-3xl p-8">Gallery</li>
           </ul>
         </div>
       </div>
