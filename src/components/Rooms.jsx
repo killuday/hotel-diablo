@@ -2,7 +2,7 @@ import React from "react";
 
 const Rooms = () => {
   return (
-    <div className="max-w-[1400px] h-[500px] bg-pink-100 mx-auto my-10  pt-16 lg:mb-[33%] md:mb-[35%] px-4 grid lg:grid-cols-3 gap-4 ">
+    <div className="max-w-[1400px] h-[500px] bg-pink-100 rounded-xl mx-auto my-10  pt-16 lg:mb-[33%] md:mb-[35%] px-4 grid lg:grid-cols-3 gap-4 ">
       <div className="lg:top-20 relative lg:col-span-1 col-span-2 ">
         <h3 className="md:text-3xl text-2xl font-bold font-urbanist ">
           Refined Retreats: Our Exquisite Accommodations

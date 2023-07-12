@@ -1,3 +1,4 @@
+import { BrowserRouter } from "react-router-dom";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
@@ -9,6 +10,7 @@ import Slider from "./components/Slider";
 function App() {
   return (
     <>
+    <BrowserRouter>
       <Navbar />
       <Hero />
       <Offers />
@@ -16,6 +18,7 @@ function App() {
       <Rooms />
       <Slider />
       <Footer />
+    </BrowserRouter>
     </>
   );
 }

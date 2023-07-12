@@ -6,6 +6,7 @@ import {
   FaLinkedin,
 } from "react-icons/fa";
 import { TiSocialPinterest } from "react-icons/ti";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -66,11 +67,19 @@ const Footer = () => {
       </div>
       <div className="flex flex-col max-w-[1400px] px-2 py-4 mx-auto justify-between sm:flex-row text-center text-gray-500 ">
         <p className="py-4 font-medium text-gray-300 hover:text-white hover:ease-in-out font-jakarta duration-200 cursor-pointer ">Made With ❤️ by Uday</p>
-        <div className="flex justify-between sm:w-[300px] pt-4 text-2xl">
+        <div className="flex  justify-between sm:w-[300px] pt-4 text-2xl">
+          <Link target="_blank" to={"https://www.facebook.com/whereismyorange.d"}>
           <FaFacebook  className="cursor-pointer hover:text-white hover:ease-in-out duration-300" />
+          </Link>
+          <Link target="_blank" to={"https://www.instagram.com/killuday/"}>
           <FaInstagram  className="cursor-pointer hover:text-white hover:ease-in-out duration-300"/>
+          </Link>
+          <Link target="_blank" to={"https://www.linkedin.com/in/uday-bhanu-91b272240"}>
           <FaLinkedin className="cursor-pointer hover:text-white hover:ease-in-out duration-300" />
-          <TiSocialPinterest className="cursor-pointer hover:text-white hover:ease-in-out duration-300" size={30} />
+          </Link>
+          <Link target="_blank" to={"https://pin.it/11Hh0cI"}>
+          <TiSocialPinterest className="cursor-pointer  hover:text-white hover:ease-in-out duration-300" size={30} />
+          </Link>
         </div>
       </div>
     </div>
